@@ -19,8 +19,8 @@ def speak_to_grandma(phrase)
     elsif Phrase== "Hi Nana, how are you?"
     puts "HUH?! SPEAK UP, SONNY
     
-    elsif phrase== "Hi!"
-    puts "HUH?! SPEAK UP, SONNY!"
+    elsif phrase == phrase.upcase
+    return"HUH?! SPEAK UP, SONNY!"
     
     elsif phrase== "WHAT DID YOU EAT TODAY?"
     puts "NO, NOT SINCE 1938!"
